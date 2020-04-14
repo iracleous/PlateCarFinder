@@ -18,7 +18,8 @@ public class DeleteForm {
                 PlateIo plateIo =new PlateIo();
                 plateIo.deletePlate(plates.getText());
 
-                JOptionPane.showMessageDialog(null,"The requested plates have been deleted");
+                JOptionPane.showMessageDialog(null,
+                        "The requested plates have been deleted");
             }
         });
     }
@@ -26,7 +27,4 @@ public class DeleteForm {
     public JPanel getDeletePanel() {
         return DeletePanel;
     }
-
-
-
 }
