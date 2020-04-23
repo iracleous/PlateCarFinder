@@ -23,6 +23,11 @@ public class Main {
 
     public static void search(JFrame frame){
 
+        frame.setContentPane(new SearchForm().getSearchPanel());
+        frame.repaint();
+        frame.setVisible(true);
+
+
     }
     public static void delete(JFrame frame){
         frame.setContentPane(new DeleteForm().getDeletePanel());

@@ -10,5 +10,8 @@
         <module name="PlateCarFinder" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PlateCarFinder" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

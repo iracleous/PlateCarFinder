@@ -7,6 +7,12 @@ import java.awt.event.ActionListener;
 
 public class Gui {
 
+    public static void main(String[] args) {
+
+    }
+
+
+
     public   void gui(){
 
         Search search = new Search();
